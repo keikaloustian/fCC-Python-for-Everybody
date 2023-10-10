@@ -1,2 +1,2 @@
-# Scientific Computing with Python - Python for Everybody 
+## Scientific Computing with Python Certification - Python for Everybody 
 
