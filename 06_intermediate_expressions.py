@@ -43,7 +43,6 @@ float('123')  # -> 123.0
 # USER INPUT
 input('prompt')  # function prompts user for input and returns a string
 
-name = input("What's your name?")
-# prints What's your name? and then user types Bob
+name = input("What's your name?")  # prints What's your name? and then user types Bob
 print('Welcome', name)  # -> Welcome Bob
 # (comma separated arguments in print() get separated by spaces automatically)
