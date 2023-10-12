@@ -6,6 +6,13 @@
 # Power **
 # Remainder (Modulo) %
 
+# Augmented operators
+a = 0
+a += 1
+a -= 1
+a *= 1
+a /= 1
+a %= 2  # equivalent to a = a % 2
 
 # OPERATOR PRECEDENCE
 # Parenthesis
