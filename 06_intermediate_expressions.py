@@ -32,6 +32,10 @@ type()  # Function that returns the type of the input
 x = 5
 # Floating Point
 y = -1.24
+# None
+None
+# String
+word = 'hello'
 
 # Type Conversions
 float(x)  # -> 5.0
