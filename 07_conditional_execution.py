@@ -8,6 +8,7 @@ if x > 10:
 # One-line notation
 if x % 2 == 0:  print('even')
 
+
 # COMPARISON OPERATORS
 # Less than <
 # Less than <
@@ -15,6 +16,7 @@ if x % 2 == 0:  print('even')
 # Greater than or equal >=
 # Equal ==
 # Not equal !=
+
 
 # IF ELSE STATEMENT
 y = 4
