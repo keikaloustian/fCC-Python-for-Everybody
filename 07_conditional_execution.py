@@ -8,6 +8,9 @@ if x > 10:
 # One-line notation
 if x % 2 == 0:  print('even')
 
+# NEGATIVE
+if not x == 200:
+    print('Not 200')
 
 # COMPARISON OPERATORS
 # Less than <
