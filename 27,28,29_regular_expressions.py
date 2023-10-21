@@ -29,3 +29,8 @@ y = re.findall('[0-9]+', x)  # -> ['2', '11', '100']
 
 # The string extraction can be fine-tuned by surrounding the portion of interest with ()
 z = re.findall('^From (\S+@\S+)')  # -> Matching lines need to start with 'From ', but only \S+@\S+ will be returned and assigned to z
+
+# ESCAPING CHARACTERS
+# $ matches the expression to its left at the end of a string
+# If we want to match the dollar sign character and not the special definition above, it needs to be escaped with a backslash:
+z = re.findall('\$', x)
