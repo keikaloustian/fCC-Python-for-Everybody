@@ -38,7 +38,7 @@
 # Interactive (REPL) vs. Script (code in a file)
 
 
-# MULTI-LINE COMMENTS
+# MULTI-LINE "COMMENTS" - Python doesn't have multi-line comments. Instead, it is possible to write a multi-line string literal and it will be ignored.
 """
     This comment
     has multiple
