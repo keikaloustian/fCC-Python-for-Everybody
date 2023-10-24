@@ -37,3 +37,10 @@
 
 # Interactive (REPL) vs. Script (code in a file)
 
+
+# MULTI-LINE COMMENTS
+"""
+    This comment
+    has multiple
+    lines
+"""
