@@ -1,3 +1,4 @@
 .vscode
 .venv
 py4efun.db
+SQLite.sql
