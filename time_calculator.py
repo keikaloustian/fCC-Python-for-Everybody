@@ -2,23 +2,26 @@ def add_time(start, duration, day_of_week = None):
 
   # Convert start into a list of [hours, minutes] in 24h format
   start_clock, start_period = start.split(' ')
-  start_time = start_clock.split(':')
+  start_hours = start_clock.split(':')[0]
+  start_minutes = start_clock.split(':')[1]
 
-  start_time[0] = int(start_time[0])
-  start_time[1] = int(start_time[1])
+  start_hours = int(start_hours)
+  start_minutes = int(start_minutes)
   
   if start_period == 'PM':
-    start_time[0] += 12
+    start_hours += 12
 
   # Convert duration to [hours, minutes]
-  duration_time = duration.split(':')
-  duration_time[0] = int(duration_time[0])
-  duration_time[1] = int(duration_time[1])
+  duration_hours = duration.split(':')[0]
+  duration_minutes = duration.split(':')[1]
+
+  duration_hours = int(duration_hours)
+  duration_minutes = int(duration_minutes)
   
   # Add duration to start
   days = 0
-  end_hours = start_time[0] + duration_time[0] 
-  end_minutes = start_time[1] + duration_time[1]
+  end_hours = start_hours + duration_hours 
+  end_minutes = start_minutes + duration_minutes
   
   if end_minutes > 60:
     end_hours += int(end_minutes / 60)
